@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Evaluación</title>
+</head>
+
+<body>
+ <header>
+  <h1>Índice</h1>
+ </header>
+ <nav>
+  <ul>
+  <h2>Introducción</h2>
+  <li><a href="#contenedor">¿Cómo funciona un contenedor?</a></li>
+  <h2>Capítulo 1. Instalar Apache</h2>
+  <li><a href="#apache">Pasos a seguir</a></li>
+  <li><a href="#perso">Experiencia personal</a></li>
+  <h2>Capítulo 2 HTML</h2>
+  <li><a href="#html">¿Qué es un HTML?</a></li>
+  <li><a href="#elemento">Partes que explican un elemento</a></li>
+  </ul>
+  </nav><br><br><br><br><br><br>
+  <div>
+  <section><a name="contenedor">
+  <h1>Introduccion</h1>
+   <h2>¿Cómo funciona un contenedor?</h2>
+   <p>Un contenedor es una sección perteneciente a ramas del arbol DOM. Cada sección puede tener un encabezado asociado y puede contener cualquier número de subsecciones anidadas adicionales. El algoritmo para el esquema también asocia cada nodo en el árbol DOM con una sección particular y potencialmente un encabezado. (Las secciones en el esquema no son elementos de sección, aunque algunos pueden corresponder a tales elementos, son simplemente secciones conceptuales).</p>
+   </a></section><br></div><br><br>
+  <div> <section><a name="apache">
+  <h1>Instalar Apache</h1>
+   <h2>Pasos a seguir</h2>
+   <p>Si te diriges a la <a href="http://httpd.apache.org/docs/current/es/install.html"> página de Apache</a> encontrarás los siguientes pasos:
+   <br>
+   <ul>
+   <li>Descarga la última versión desde http://httpd.apache.org/download.cgi
+<li>Extraer	$ gzip -d httpd-NN.tar.gz
+    $ tar xvf httpd-NN.tar
+    $ cd httpd-NN
+<li>Configura	$ ./configure --prefix=PREFIX
+<li>llenar	$ make
+<li>Instala	$ make install
+<li>Personalizalo	$ vi PREFIX/conf/httpd.conf
+<li>Prueba	$ PREFIX/bin/apachectl -k start
+</ul></p>
+   </a></section>
+   <section><a name="perso">
+   <h2>Experiencia personal</h2>
+   <p>Se puede completar la instalación de apache siguiendo los pasos que nos marca la página, sin embargo, en mi máquina aún no he podido instalaro, ya que al parecer me hace falta un archivo "APR", que ya intenté instalar, pero que aún no ha solucionado el problema. Fuera de ese inconveniente, todo ha marchado normalmente.</p>
+   </a></section>
+    <section><a name="html"></div><br><br>
+ <div> <h1>HTML</h1>
+   <h2>¿Qué es un HTML?</h2>
+   <p>HTML es el lenguaje de marcado básico de la World Wide Web. Originalmente, HTML fue diseñado principalmente como un lenguaje para describir semánticamente documentos científicos. Su diseño general, sin embargo, le ha permitido adaptarse, durante los años siguientes, para describir una serie de otros tipos de documentos e incluso aplicaciones.<br>Los documentos HTML se componen de un árbol de elementos y texto. Cada elemento se denota en la fuente por una etiqueta de inicio , tal como " body", y una etiqueta de fin , tal como " /body". (Ciertas etiquetas de inicio y finales pueden en ciertos casos ser omitidos y están implícitos en otras etiquetas).<br>Agentes de usuario HTML (por ejemplo, navegadores Web) analizan este marcado, convirtiéndolo en un árbol DOM (Document Object Model). Un árbol DOM es una representación en memoria de un documento. </p>
+   </a></section>
+    <section><a name="elemento">
+   <h2>Elemento</h2>
+   <p>Los elementos pueden tener atributos, que controlan el funcionamiento de los elementos.<br>Las etiquetas contienen una etiqueta con su nombre , dando el nombre del elemento. Todos los elementos HTML tienen nombres que sólo utilizan caracteres ASCII alfanuméricos . En la sintaxis HTML, los nombres de etiqueta, incluso aquellos para los elementos extraños , pueden ser escritos con cualquier combinación de letras mayúsculas bajos y que, cuando se convierte a todos en minúsculas, coincide con el nombre de la etiqueta del elemento; nombres de las etiquetas son sensibles a mayúsculas.<br>Las etiquetas se utilizan para delimitar el inicio y el final de los elementos en el marcado. Texto sin formato , escapable texto sin formato , y los elementos normales tienen una etiqueta de inicio para indicar dónde empiezan y una etiqueta de cierre para indicar dónde terminan.<br>Los atributos de un elemento se expresan dentro de la etiqueta inicial del elemento.
+<br>
+Los atributos tienen un nombre y un valor. Los nombres de atributo deben constar de uno o más caracteres distintos de los caracteres de espacio, NULL, comillas ( "), apóstrofe ( '), signo mayor que (>), solidus (/), y signo igual (=), los caracteres de control , y los caracteres que no se definen por Unicode.  Los atributos se colocan dentro de la etiqueta de inicio, y constan de un nombre y un valor , separados por un " =carácter". El valor del atributo puede permanecer sin comillas si no contiene caracteres de espacio o cualquiera de " ' ` = <o >. De lo contrario, tiene que ser citado el uso de comillas simples o dobles. El valor, junto con el " =carácter", se puede omitir por completo si el valor es una cadena vacía.</strong></p>
+   </a></section></div>
+</body>
+</html>

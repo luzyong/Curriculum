@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+header
+    {
+	background-color:rgb(0,0,0,0.8);
+    background-image: url("upiicsa.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:190px;
+    border-bottom: 2px solid ;
+	border-top:2px solid;
+    border-radius:6px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px
+  /*margin-right: 200px;*/
+    }
+#info{
+	background-color:rgb(0,0,0,0.8);
+    padding:5px 10px 5px 10px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	/*border: 3px solid #663399;*/
+    border-radius:6px;
+	}
+	
+#tareas
+   {
+	   background-color:rgb(0,0,0,0.8);
+	   padding:5px 10px 5px 10px;
+	   border-top: 2px solid;
+	   border-bottom: 2px solid;
+    border-radius:6px;
+   }
+ footer
+ {
+	 background-color:rgb(72, 61, 139,0.2);
+	 padding:5px 5px 5px 5px;
+	 border-bottom:1.5px;
+	 /*border: 3px solid #663399;*/
+    border-radius:16px;
+ }
+p
+{
+	color:#FFFFFF;
+	font-weight:100;
+	font-family:Ubuntu Mono;
+}
+h3,h1
+{
+	/*color:#6495ED;*/
+	color:#00FFFF;
+	font-family:Ubuntu Mono;
+}
+
+/*@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Orbitron Regular'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v11/yMJRMIlzdpvBhQQL_Qq7dy0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}*/
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(https://fonts.gstatic.com/s/ubuntumono/v9/KFOjCneDtsqEr0keqCMhbCc6CsQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
